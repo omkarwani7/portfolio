@@ -3,16 +3,16 @@ import {
     backend,
     web,
     javascript,
-    typescript,
+    androidlogo,
     html,
     css,
     reactjs,
-    redux,
+    java,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
+    python,
     docker,
     meta,
     starbucks,
@@ -93,18 +93,18 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name:"android",
-    //   icon: "./src/assets/androidlogo.png",
-    // },
-    // {
-    //   name:"java",
-    //   icon: "./src/assets/java.png",
-    // },
-    // {
-    //   name:"python",
-    //   icon: "./src/assets/python.png",
-    // },
+    {
+      name:"android",
+      icon: androidlogo,
+    },
+    {
+      name:"java",
+      icon: java,
+    },
+    {
+      name:"python",
+      icon: python,
+    },
   ];
   
 
@@ -183,7 +183,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: ".\public\Cast_your_Vote.png",
+      image: "Cast_your_Vote.png",
       source_code_link: "https://github.com/",
     },
     {
@@ -230,4 +230,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects};
