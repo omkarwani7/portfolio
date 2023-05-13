@@ -183,7 +183,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/Cast_our_Vote.png",
+      image: "./public/Cast_your_Vote.png",
       source_code_link: "https://github.com/",
     },
     {
