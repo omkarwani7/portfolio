@@ -95,15 +95,15 @@ import {
     },
     {
       name:"android",
-      icon: "./src/assets/androidlogo.png",
+      icon: "/src/assets/androidlogo.png",
     },
     {
       name:"java",
-      icon: "./src/assets/java.png",
+      icon: "/src/assets/java.png",
     },
     {
       name:"python",
-      icon: "./src/assets/python.png",
+      icon: "/src/assets/python.png",
     },
   ];
   
@@ -183,7 +183,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "./src/assets/Cast_your_Vote.png",
+      image: "/src/assets/Cast_your_Vote.png",
       source_code_link: "https://github.com/",
     },
     {
