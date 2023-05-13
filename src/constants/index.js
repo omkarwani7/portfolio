@@ -74,24 +74,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
     },
     {
       name: "MongoDB",
@@ -106,12 +94,16 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name:"android",
+      icon: "./src/assets/androidlogo.png",
     },
     {
-      name: "docker",
-      icon: docker,
+      name:"java",
+      icon: "./src/assets/java.png",
+    },
+    {
+      name:"python",
+      icon: "./src/assets/python.png",
     },
   ];
   
@@ -174,9 +166,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cast Your Vote – A digital voting platform",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a fully responsive web-based voting application that enabled users to cast votes online and declare results in no time; reduced the need for manpower and expenditure by more than 50%.",
       tags: [
         {
           name: "react",
@@ -191,7 +183,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "src\assets\computerss.png",
+      image: "./src/assets/Cast_your_Vote.png",
       source_code_link: "https://github.com/",
     },
     {
