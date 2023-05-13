@@ -95,15 +95,15 @@ import {
     },
     {
       name:"android",
-      icon: "./src/assets/Cast_your_Vote.png",
+      icon: "./src/assets/androidlogo.png",
     },
     {
       name:"java",
-      icon: "./src/assets/Cast_your_Vote.png",
+      icon: "./src/assets/java.png",
     },
     {
       name:"python",
-      icon: "./src/assets/Cast_your_Vote.png",
+      icon: "./src/assets/python.png",
     },
   ];
   
