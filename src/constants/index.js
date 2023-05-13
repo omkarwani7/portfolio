@@ -93,18 +93,18 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name:"android",
-    //   icon: "/src/assets/androidlogo.png",
-    // },
-    // {
-    //   name:"java",
-    //   icon: "/src/assets/java.png",
-    // },
-    // {
-    //   name:"python",
-    //   icon: "/src/assets/python.png",
-    // },
+    {
+      name:"android",
+      icon: "./src/assets/Cast_your_Vote.png",
+    },
+    {
+      name:"java",
+      icon: "./src/assets/Cast_your_Vote.png",
+    },
+    {
+      name:"python",
+      icon: "./src/assets/Cast_your_Vote.png",
+    },
   ];
   
 
