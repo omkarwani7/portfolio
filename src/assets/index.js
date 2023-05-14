@@ -29,6 +29,7 @@ import python from "./python.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import justchat from "./_4630532_8150749_removebg_preview.png"
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   java,
   python,
   androidlogo,
+  justchat,
 };
