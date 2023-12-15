@@ -24,6 +24,9 @@ import {
     threejs,
     logo,
     justchat,
+    travel,
+    attendx,
+    mealmixer
   } from "../assets";
   
 
@@ -33,7 +36,7 @@ import {
       title: "About",
     },
     {
-      id: "work",
+      id: "works",
       title: "Work",
     },
     {
@@ -167,37 +170,29 @@ import {
   
   const projects = [
     {
-      name: "Cast Your Vote ",
+      name: "Travel Approval App ",
       description:
-        "Developed a fully responsive web-based voting application that enabled users to cast votes online and declare results in no time.",
+        "A custom app for organizations to manage their travel approval activities, where employees will have to submit an electronic request in the system for future travel. The app will include salesforce features such as reports, dashboards, flows etc. to help streamline the process.",
       tags: [
         {
-          name: "python",
+          name: "SalesForce",
           color: "blue-text-gradient",
         },
-        {
-          name: "mysql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: "Cast_your_Vote.png",
+      image: travel,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Just Chat",
+      name: "AttendX",
       description:
-        "It’s a chatting application with real time messaging service, with secure login and cloud storage integration.",
+        "An app to ease the process of recording employee attendance with features such as a sliding bar, as well as an QR code scanner that can be used to record the check in and check out time, and a feature that records the live location of the person at the time of attendance to make the process transparent.",
       tags: [
         {
-          name: "java",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
@@ -205,9 +200,22 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: justchat,
-      source_code_link: "https://github.com/",
-    }
+      image: attendx,
+      source_code_link: "https://github.com/omkarwani7/attendance-flutter-app",
+    },
+    {
+      name: "MealMixer",
+      description:
+        "An ultimate taste companion for cooking and food freak people. The app enables people search recipes for different food category wise. It also lets people add food to the favorite section after signing up and gives information regarding the rating and duration of the recipe.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: mealmixer,
+      source_code_link: "https://github.com/omkarwani7/recipe_app_flutter",
+    },
   ];
   
   export { services, technologies, experiences, projects};

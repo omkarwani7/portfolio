@@ -15,7 +15,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain"></img>
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">Rajat Maini<br className="sm:block hidden"/>| Android and Web Developer</p>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">Omkar Wani<br className="sm:block hidden"/>| Android Developer</p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10" >
           {navLinks.map((Link) => (

@@ -30,6 +30,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import justchat from "./_4630532_8150749_removebg_preview.png"
+import attendx from "./attendx.png"
+import travel from "./travel.jpg"
+import mealmixer from "./meal mixer.jpg"
 
 export {
   logo,
@@ -64,4 +67,7 @@ export {
   python,
   androidlogo,
   justchat,
+  attendx,
+  travel,
+  mealmixer
 };
